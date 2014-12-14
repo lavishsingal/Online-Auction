@@ -1,0 +1,6 @@
+#!/bin/sh
+gcc auctionserver.c -o auctionserver -lnsl -lsocket
+gcc seller1.c -o seller1 -lnsl -lsocket
+gcc seller2.c -o seller2 -lnsl -lsocket
+gcc bidder1.c -o bidder1 -lnsl -lsocket
+gcc bidder2.c -o bidder2 -lnsl -lsocket
